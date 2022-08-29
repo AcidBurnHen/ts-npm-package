@@ -2,7 +2,7 @@
   "name": "ts-npm-package",
   "version": "0.1.0",
   "license": "MIT",
-  "author": "acidburn",
+  "author": "Marin Luic",
   "main": "dist/index.js",
   "module": "dist/ts-npm-package.esm.js",
   "typings": "dist/index.d.ts",
@@ -46,5 +46,14 @@
       "path": "dist/ts-npm-package.esm.js",
       "limit": "10 KB"
     }
-  ]
+  ],
+  "devDependencies": {
+    "@size-limit/preset-small-lib": "^8.0.1",
+    "@tsconfig/recommended": "^1.0.1",
+    "dts-cli": "^1.6.0",
+    "husky": "^8.0.1",
+    "size-limit": "^8.0.1",
+    "tslib": "^2.4.0",
+    "typescript": "^4.8.2"
+  }
 }
